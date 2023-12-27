@@ -1,0 +1,68 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('WebBackground.jpg') center/272vh no-repeat;
+    color: #ff4b4b;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #ff3f3f;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #41d415;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: -475px; /* Set to a positive value, for example: 20px */
+    left: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #ff6969;
+    color: #00ff40;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: solid #00ff40;
+    cursor: pointer;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+    /* Add your desktop-specific styles here */
+}
+
+/* Tablet styles */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    /* Add your tablet-specific styles here */
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    /* Add your mobile-specific styles here */
+}
+
+
